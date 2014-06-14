@@ -35,7 +35,7 @@
                 </a>
             </div>
         </header>
-        <nav>
+        <nav id ="navigation">
             <ul class="menu nav nav-pills">
                 <li>
                     <a href="#">Python</a>
@@ -246,5 +246,23 @@
                 </span>
             </h3>
         </footer>
+        <script>
+			function log(texto) {
+        	console.log(texto);
+        	return texto;
+        }
+
+        var persona = {}
+        persona.nombre = "Daniel";
+        persona.edad = 35
+        persona.pais = {
+        	nombre : "Colombia",
+        	codigo: "COL",
+        	numero : 54,
+        };
+
+        
+        log(persona);
+        </script>
     </body>
 </html>
